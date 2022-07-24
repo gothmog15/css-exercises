@@ -3,15 +3,17 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
-  font-size: 14px;
-}
-
 .para {
   font-size: 22px;
+  font-weight: bold;
 }
 
-.confirm {
+.small-para {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -21,9 +23,11 @@
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
+  border-width: 3px;
+  border-color: grey;
 }
 
-.child {
+.text.child {
   color: red;
   font-size: 14px;
 }

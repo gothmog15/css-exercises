@@ -1,0 +1,10 @@
+.ext{
+
+    margin: 10px;
+    padding: 0 20px;
+    width: auto;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
